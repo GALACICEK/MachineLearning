@@ -5,6 +5,13 @@
 - [Data source](https://bilkav.com/makine-ogrenmesi-egitimi)
 - [Education](https://www.btkakademi.gov.tr/portal/course/python-ile-makine-ogrenmesi-11800)
 
+- we need some installations:
+    - pip install pandas
+    - pip install numpy
+    - pip install matplotlib
+    - pip install scikit-learn
+    - pip install statsmodels
+
 ## Some Important Concepts for Machine Learning
 
 - Prediction: It predicts past, faulty or missing values in our data and also predicts the future.
