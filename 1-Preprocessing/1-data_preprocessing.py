@@ -64,7 +64,7 @@ print(s2)
 
 # Split test and train variables--------------------------------------------------
 from sklearn.model_selection import train_test_split
-x_train,x_test,y_test,y_test = train_test_split(s1,sonuc3,test_size=0.33, random_state=0)
+x_train,x_test,y_train,y_test = train_test_split(s1,sonuc3,test_size=0.33, random_state=0)
 
 
 #Datas Scaler---------------------------------------------------------------------------
@@ -72,6 +72,6 @@ from sklearn.preprocessing import StandardScaler
 sc =StandardScaler()
 
 X_train = sc.fit_transform(x_train)
-X_test = sc.fit_transform(x_train)
+X_test = sc.fit_transform(x_test)
 
 
