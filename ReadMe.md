@@ -74,6 +74,11 @@
 
 - [6-Random_Forest.py](https://github.com/GALACICEK/
 MachineLearning/blob/main/2-Predictions/6-Random_Forest.py)
+    - Preprocessing
+    - Dataframe Slicing And Transform to Array
+    - Random Forest
+    - Visualization
+    - Predictions
 
 - [7-Evaluation_of_Predictions.py](https://github.com/GALACICEK/
 MachineLearning/blob/main/2-Predictions/7-Evaluation_of_Predictions.py)
