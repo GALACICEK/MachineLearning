@@ -66,7 +66,17 @@
 
 
 - [5-Decision_Tree.py](https://github.com/GALACICEK/MachineLearning/blob/main/2-Predictions/5-Decision_Tree.py)
-- [6-Random_Forest.py](https://github.com/GALACICEK/MachineLearning/blob/main/2-Predictions/6-Random_Forest.py)
+    - Preprocessing
+    - Dataframe Slicing And Transform to Array
+    - Decision Tree
+    - Visualization
+    - Predictions
+
+- [6-Random_Forest.py](https://github.com/GALACICEK/
+MachineLearning/blob/main/2-Predictions/6-Random_Forest.py)
+
+- [7-Evaluation_of_Predictions.py](https://github.com/GALACICEK/
+MachineLearning/blob/main/2-Predictions/7-Evaluation_of_Predictions.py)
 
 ### [3-Classifications](https://github.com/GALACICEK/MachineLearning/blob/main/3-Classifications/)
 
