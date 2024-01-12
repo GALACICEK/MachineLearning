@@ -38,7 +38,22 @@
     - Comment: We have drawn the line y = α+βx+ε closest to the selected values.
 
 - [2-Multiple_Linear_Regression.py](https://github.com/GALACICEK/MachineLearning/blob/main/2-Predictions/2-Multiple_Linear_Regression.py)
+    - Multiple Linear Regression Summary
+    - Preprocessing
+    - Modelling
+    - Backward Elimination
+
 - [3-Polynomial_Regression.py](https://github.com/GALACICEK/MachineLearning/blob/main/2-Predictions/3-Polynomial_Regression.py)
+    - Preprocessing
+    - Dataframe Slicing And Transform to Array
+    - Linear Regression
+    - Polynomial Regression
+        - Non-linear Regression
+        - Second  Degree Polynomial
+        - Fourth Degree Polynomial
+    - Visualization
+    - Predictions
+
 - [4-Support_Vector_Regression.py](https://github.com/GALACICEK/MachineLearning/blob/main/2-Predictions/4-Support_Vector_Regression.py)
 - [5-Decision_Tree.py](https://github.com/GALACICEK/MachineLearning/blob/main/2-Predictions/5-Decision_Tree.py)
 - [6-Random_Forest.py](https://github.com/GALACICEK/MachineLearning/blob/main/2-Predictions/6-Random_Forest.py)

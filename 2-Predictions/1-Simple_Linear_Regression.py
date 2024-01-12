@@ -1,5 +1,8 @@
 # Linear Regression
 
+# y = α+βx+ε 
+
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
