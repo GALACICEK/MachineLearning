@@ -55,6 +55,16 @@
     - Predictions
 
 - [4-Support_Vector_Regression.py](https://github.com/GALACICEK/MachineLearning/blob/main/2-Predictions/4-Support_Vector_Regression.py)
+    - Preprocessing
+    - Dataframe Slicing And Transform to Array
+    - Data Scaler
+    - SVR kernel = rbf
+    - SVR kernel = linear
+    - SVR kernel = poly 
+    - Visualization
+    - Predictions
+
+
 - [5-Decision_Tree.py](https://github.com/GALACICEK/MachineLearning/blob/main/2-Predictions/5-Decision_Tree.py)
 - [6-Random_Forest.py](https://github.com/GALACICEK/MachineLearning/blob/main/2-Predictions/6-Random_Forest.py)
 
