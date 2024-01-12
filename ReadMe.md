@@ -82,6 +82,27 @@ MachineLearning/blob/main/2-Predictions/6-Random_Forest.py)
 
 - [7-Evaluation_of_Predictions.py](https://github.com/GALACICEK/
 MachineLearning/blob/main/2-Predictions/7-Evaluation_of_Predictions.py)
+    - Preprocessing
+    - Dataframe Slicing And Transform to Array
+    - Linear Regression
+        - Visualization
+        - R2 Score
+    - Polynomial Regression
+        - Second Degree Polynomial
+        - Visualization
+        - R2 Score
+    - SVR Regression
+        - Datas Scaler
+        - SVR kernel='rbf'
+        - Visualization
+        - R2 Score
+    - Decision Tree
+        - Visualization
+        - R2 Score
+     - Random Forest
+        - Visualization
+        - R2 Score
+    - OutPuts R2 Score Regression Models
 
 ### [3-Classifications](https://github.com/GALACICEK/MachineLearning/blob/main/3-Classifications/)
 

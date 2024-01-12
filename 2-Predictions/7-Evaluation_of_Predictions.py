@@ -59,7 +59,7 @@ print("Linear Regression R2 Score:")
 print(r2_score(y,lin_reg2.predict(poly_reg2.fit_transform(X))))
 
 
-"""# SVR ---------------------------------------"""
+"""# SVR Regression ---------------------------------------"""
 #Datas Scaler--------------------------------------------------
 from sklearn.preprocessing import StandardScaler
 
@@ -68,7 +68,7 @@ X_scaler = sc1.fit_transform(X)
 sc2 =StandardScaler()
 y_scaler = sc2.fit_transform(y)
 
-# SVR ---------------------------------------
+# SVR kernel='rbf' ---------------------------------------
 from sklearn.svm import SVR
 
 svr_rbf = SVR(kernel='rbf')
@@ -132,7 +132,7 @@ print("Random Forest Regression  R2 Score:")
 print(r2_score(y,rf_reg.predict(X)))
 
 
-""" OutPuts:
+""" OutPuts R2 Score Regression Models
 Linear Regression R2 Score:
 0.6690412331929894
 Polynomial Regression R2 Score:
