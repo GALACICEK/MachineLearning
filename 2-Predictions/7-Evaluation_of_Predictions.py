@@ -32,7 +32,7 @@ plt.title("Linear Regression")
 plt.show()
 
 # R2 Score----------------------------------------
-print("Polynomial Regression R2 Score:")
+print("Linear Regression R2 Score:")
 print(r2_score(y,lin_reg.predict(X)))
 
 
