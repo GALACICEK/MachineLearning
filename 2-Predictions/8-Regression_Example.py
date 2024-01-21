@@ -1,5 +1,5 @@
 # Regression_Example
-# calculate tu use MLR(multiple linear), PR(polynomial), SVR(support vector), DT(dessicion tree), RF(random forest) techniqies
+# calculate to use MLR(multiple linear), PR(polynomial), SVR(support vector), DT(dessicion tree), RF(random forest) techniqies
 # Find eveluation parameters
 
 import pandas as pd
