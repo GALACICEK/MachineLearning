@@ -4,6 +4,7 @@
 
 - [Data source](https://bilkav.com/makine-ogrenmesi-egitimi)
 - [Education](https://www.btkakademi.gov.tr/portal/course/python-ile-makine-ogrenmesi-11800)
+- [DATA MINING: CONCEPTS AND TECHNIQUES Book](https://www.academia.edu/22412092/DATA_MINING_CONCEPTS_AND_TECHNIQUES_3RD_EDITION)
 
 - we need some installations:
     - pip install pandas
@@ -20,6 +21,7 @@
 ## Project Search
 
 ### [1-Preprocessing](https://github.com/GALACICEK/MachineLearning/blob/main/1-Preprocessing/)
+
 - [1-data_preprocessing.py](https://github.com/GALACICEK/MachineLearning/blob/main/1-Preprocessing/1-data_preprocessing.py)
     - Loading data sets
     - Data preprocessing
@@ -30,6 +32,7 @@
     - Datas Scaler with Standard
 
 ### [2-Predictions](https://github.com/GALACICEK/MachineLearning/blob/main/2-Predictions)
+
 - [1-Simple_Linear_Regression.py](https://github.com/GALACICEK/MachineLearning/blob/main/2-Predictions/1-Simple_Linear_Regression.py)
     - Preprocessing
     - Modelling
@@ -70,6 +73,7 @@
     - Dataframe Slicing And Transform to Array
     - Decision Tree
     - Visualization
+    - Tree Shape Visualization
     - Predictions
 
 - [6-Random_Forest.py](https://github.com/GALACICEK/
@@ -104,7 +108,122 @@ MachineLearning/blob/main/2-Predictions/7-Evaluation_of_Predictions.py)
         - R2 Score
     - OutPuts R2 Score Regression Models
 
+- [8-Regression_Example.py](https://github.com/GALACICEK/
+MachineLearning/blob/main/2-Predictions/8-Regression_Example.py)
+    - Linear Regression
+    - Polynomial Regression
+    - SVR Regression
+    - Decision Tree
+    - Random Forest
+
 ### [3-Classifications](https://github.com/GALACICEK/MachineLearning/blob/main/3-Classifications/)
 
+- [1-Logistic_Regression.py](https://github.com/GALACICEK/
+MachineLearning/blob/main/3-Classifications/1-Logistic_Regression.py)
+    - Sigmoid function
+    - Loading data sets
+    - Split test and train variables
+    - Datas Scaler
+    - Logistic Regression
+    - Confusion Matrix
 
+- [2-K-NN.py](https://github.com/GALACICEK/
+MachineLearning/blob/main/3-Classifications/2-K-NN.py)
+    - Sigmoid function
+    - Loading data sets
+    - Split test and train variables
+    - Datas Scaler
+    - KNN
+    - Confusion Matrix
+
+- [3-Support_Vector_Machine.py](https://github.com/GALACICEK/
+MachineLearning/blob/main/3-Classifications/3-Support_Vector_Machine.py)
+    - Loading data sets
+    - Split test and train variables
+    - Datas Scaler
+    - SVC kernel='linear'
+        - Confusion Matrix
+    - SVC kernel='rbf'
+        - Confusion Matrix
+    - SVC kernel='poly'
+        - Confusion Matrix
+
+- [4-NaiveBayes.py](https://github.com/GALACICEK/
+MachineLearning/blob/main/3-Classifications/4-NaiveBayes.py)
+    - Loading data sets
+    - Split test and train variables
+    - Gaussian Naive Bayes
+         - Confusion Matrix
+    - Multinominal Naive Bayes
+         - Confusion Matrix
+    - Bernoulli Naive Bayes
+         - Confusion Matrix
+
+- [5-Decission_Tree.py](https://github.com/GALACICEK/
+MachineLearning/blob/main/3-Classifications/5-Decission_Tree.py)
+    - Quinlan's ID3 Algoritm
+    - Loading data sets
+    - Split test and train variables
+    - Datas Scaler
+    - Decision Tree Classifier 'entropy'
+        - Tree Shape Visualization
+        - Confusion Matrix
+    - Decision Tree Classifier 'gini'
+        - Tree Shape Visualization
+        - Confusion Matrix
+
+- [6-Random_Forest.py](https://github.com/GALACICEK/
+MachineLearning/blob/main/3-Classifications/6-Random_Forest.py)
+    - Loading data sets
+    - Split test and train variables
+    - Datas Scaler
+    - Random Forest Classifier 'entropy'
+        - Confusion Matrix
+    - Random Forest Classifier 'gini'
+        - Confusion Matrix
+
+- [7-Classification_Example.py](https://github.com/GALACICEK/
+MachineLearning/blob/main/3-Classifications/7-Classification_Example.py)
+    - Loading data sets
+    - Label Encoding
+    -  2D scatter plot 
+    -  3D scatter plot 
+    - Split test and train variables
+    - Datas Scaler
+    - Logistic Regression
+        - Logistic Regression Calculation Metrics
+            - Confusion Matrix
+            - Recall Score
+            - F1 Score
+            - Classification Report
+    - KNN
+        - KNN Calculation Metrics
+            - Confusion Matrix
+            - Recall Score
+            - F1 Score
+            - Classification Report
+    - SVC kernel='rbf'
+        - SVC kernel='rbf' Calculation Metrics
+            - Confusion Matrix
+            - Recall Score
+            - F1 Score
+            - Classification Report
+    - Gaussian Naive Bayes
+        - Gaussian Naive Bayes Calculation Metrics
+            - Confusion Matrix
+            - Recall Score
+            - F1 Score
+            - Classification Report
+    - Decision Tree Classifier
+        - LDecision Tree Classifier Calculation Metrics
+            - Confusion Matrix
+            - Recall Score
+            - F1 Score
+            - Classification Report
+    - Random Forest Classifier
+        - Random Forest Calculation Metrics
+            - Confusion Matrix
+            - Recall Score
+            - F1 Score
+            - Classification Report
 
