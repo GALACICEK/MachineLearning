@@ -8,9 +8,9 @@ import matplotlib.pyplot as plt
 #Preprocessing-------------------------------------------
 veriler = pd.read_csv('data/maaslar.csv')
 
-# Dataframe Slicing And Transform to Array
-X= veriler.iloc[:,1:2].values
-y = veriler.iloc[:,2:].values
+# Dataframe Slicing
+X= veriler.iloc[:,1:2]
+y = veriler.iloc[:,2:]
 
 # Decision Tree----------------------------------------
 
@@ -30,6 +30,12 @@ plt.plot(X,r_dt.predict(K), color = "yellow")
 plt.title("Decision Tree")
 plt.show()
 
+# Tree Shape Visualization ----------------------------------------
+from sklearn import tree
+
+plt.figure(figsize=(12, 8))
+tree.plot_tree(r_dt, feature_names=X.columns.tolist(), filled=True, rounded=True)
+plt.show()
 
 # Predictions------------------------------------------
 
