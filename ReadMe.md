@@ -12,6 +12,7 @@
     - pip install matplotlib
     - pip install scikit-learn
     - pip install statsmodels
+    - pip install xlrd
 
 ## Some Important Concepts for Machine Learning
 
@@ -84,8 +85,7 @@ MachineLearning/blob/main/2-Predictions/6-Random_Forest.py)
     - Visualization
     - Predictions
 
-- [7-Evaluation_of_Predictions.py](https://github.com/GALACICEK/
-MachineLearning/blob/main/2-Predictions/7-Evaluation_of_Predictions.py)
+- [7-Evaluation_of_Predictions.py](https://github.com/GALACICEK/MachineLearning/blob/main/2-Predictions/7-Evaluation_of_Predictions.py)
     - Preprocessing
     - Dataframe Slicing And Transform to Array
     - Linear Regression
@@ -108,8 +108,7 @@ MachineLearning/blob/main/2-Predictions/7-Evaluation_of_Predictions.py)
         - R2 Score
     - OutPuts R2 Score Regression Models
 
-- [8-Regression_Example.py](https://github.com/GALACICEK/
-MachineLearning/blob/main/2-Predictions/8-Regression_Example.py)
+- [8-Regression_Example.py](https://github.com/GALACICEK/MachineLearning/blob/main/2-Predictions/8-Regression_Example.py)
     - Linear Regression
     - Polynomial Regression
     - SVR Regression
@@ -118,8 +117,7 @@ MachineLearning/blob/main/2-Predictions/8-Regression_Example.py)
 
 ### [3-Classifications](https://github.com/GALACICEK/MachineLearning/blob/main/3-Classifications/)
 
-- [1-Logistic_Regression.py](https://github.com/GALACICEK/
-MachineLearning/blob/main/3-Classifications/1-Logistic_Regression.py)
+- [1-Logistic_Regression.py](https://github.com/GALACICEK/MachineLearning/blob/main/3-Classifications/1-Logistic_Regression.py)
     - Sigmoid function
     - Loading data sets
     - Split test and train variables
@@ -127,8 +125,7 @@ MachineLearning/blob/main/3-Classifications/1-Logistic_Regression.py)
     - Logistic Regression
     - Confusion Matrix
 
-- [2-K-NN.py](https://github.com/GALACICEK/
-MachineLearning/blob/main/3-Classifications/2-K-NN.py)
+- [2-K-NN.py](https://github.com/GALACICEK/MachineLearning/blob/main/3-Classifications/2-K-NN.py)
     - Sigmoid function
     - Loading data sets
     - Split test and train variables
@@ -136,8 +133,7 @@ MachineLearning/blob/main/3-Classifications/2-K-NN.py)
     - KNN
     - Confusion Matrix
 
-- [3-Support_Vector_Machine.py](https://github.com/GALACICEK/
-MachineLearning/blob/main/3-Classifications/3-Support_Vector_Machine.py)
+- [3-Support_Vector_Machine.py](https://github.com/GALACICEK/MachineLearning/blob/main/3-Classifications/3-Support_Vector_Machine.py)
     - Loading data sets
     - Split test and train variables
     - Datas Scaler
@@ -148,8 +144,7 @@ MachineLearning/blob/main/3-Classifications/3-Support_Vector_Machine.py)
     - SVC kernel='poly'
         - Confusion Matrix
 
-- [4-NaiveBayes.py](https://github.com/GALACICEK/
-MachineLearning/blob/main/3-Classifications/4-NaiveBayes.py)
+- [4-NaiveBayes.py](https://github.com/GALACICEK/MachineLearning/blob/main/3-Classifications/4-NaiveBayes.py)
     - Loading data sets
     - Split test and train variables
     - Gaussian Naive Bayes
@@ -159,8 +154,7 @@ MachineLearning/blob/main/3-Classifications/4-NaiveBayes.py)
     - Bernoulli Naive Bayes
          - Confusion Matrix
 
-- [5-Decission_Tree.py](https://github.com/GALACICEK/
-MachineLearning/blob/main/3-Classifications/5-Decission_Tree.py)
+- [5-Decission_Tree.py](https://github.com/GALACICEK/MachineLearning/blob/main/3-Classifications/5-Decission_Tree.py)
     - Quinlan's ID3 Algoritm
     - Loading data sets
     - Split test and train variables
@@ -172,8 +166,7 @@ MachineLearning/blob/main/3-Classifications/5-Decission_Tree.py)
         - Tree Shape Visualization
         - Confusion Matrix
 
-- [6-Random_Forest.py](https://github.com/GALACICEK/
-MachineLearning/blob/main/3-Classifications/6-Random_Forest.py)
+- [6-Random_Forest.py](https://github.com/GALACICEK/MachineLearning/blob/main/3-Classifications/6-Random_Forest.py)
     - Loading data sets
     - Split test and train variables
     - Datas Scaler
@@ -182,8 +175,7 @@ MachineLearning/blob/main/3-Classifications/6-Random_Forest.py)
     - Random Forest Classifier 'gini'
         - Confusion Matrix
 
-- [7-Classification_Example.py](https://github.com/GALACICEK/
-MachineLearning/blob/main/3-Classifications/7-Classification_Example.py)
+- [7-Classification_Example.py](https://github.com/GALACICEK/MachineLearning/blob/main/3-Classifications/7-Classification_Example.py)
     - Loading data sets
     - Label Encoding
     -  2D scatter plot 
