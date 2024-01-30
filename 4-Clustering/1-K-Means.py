@@ -31,7 +31,7 @@ kmeans.fit(X)
 
 print(kmeans.cluster_centers_)
 
-#Find optimum clusters number----------------------------------------------
+#Find Optimum Cluster number----------------------------------------------
 sonuclar = []
 for i in range(1,11):
     kmeans = KMeans (n_clusters=i, init='k-means++', random_state=123)
@@ -41,7 +41,7 @@ for i in range(1,11):
 plt.plot(range(1,11),sonuclar)
 plt.show()
 
-#Plot 4 Clusters----------------------------------------------
+#Plot Optimum Clusters----------------------------------------------
 kmeans = KMeans (n_clusters=4, init='k-means++', random_state=123)
 y_predic = kmeans.fit_predict(X)
 
