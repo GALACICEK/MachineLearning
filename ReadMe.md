@@ -13,6 +13,7 @@
     - pip install scikit-learn
     - pip install statsmodels
     - pip install xlrd
+    - pip install scipy
 
 ## Some Important Concepts for Machine Learning
 
@@ -218,4 +219,25 @@ MachineLearning/blob/main/2-Predictions/6-Random_Forest.py)
             - Recall Score
             - F1 Score
             - Classification Report
+
+### [4-Clustering](https://github.com/GALACICEK/MachineLearning/blob/main/4-Clustering/)
+
+- [1-K-Means.py](https://github.com/GALACICEK/MachineLearning/blob/main/4-Clustering/1-K-Means.py)
+    - Loading data sets
+    - K-Means Clustering
+    - Find Optimum Cluster number
+    - Plot Optimum Clusters
+
+- [2-Hierarchical.py](https://github.com/GALACICEK/MachineLearning/blob/main/4-Clustering/2-Hierarchical.py)
+    - Loading data sets
+    - Agglomerative Clustering
+    - Scater Clustering
+    - Dendogram
+
+
+
+
+
+
+
 
