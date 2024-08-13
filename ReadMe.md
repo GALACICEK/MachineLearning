@@ -8,12 +8,14 @@
 
 - we need some installations:
     - pip install pandas
+    - pip install pyarrow (Pyarrow will become a required dependency of pandas in the next major release of pandas (pandas 3.0))
     - pip install numpy
     - pip install matplotlib
     - pip install scikit-learn
     - pip install statsmodels
     - pip install xlrd
     - pip install scipy
+    - pip install nltk
 
 ## Some Important Concepts for Machine Learning
 
@@ -78,8 +80,7 @@
     - Tree Shape Visualization
     - Predictions
 
-- [6-Random_Forest.py](https://github.com/GALACICEK/
-MachineLearning/blob/main/2-Predictions/6-Random_Forest.py)
+- [6-Random_Forest.py](https://github.com/GALACICEK/MachineLearning/blob/main/2-Predictions/6-Random_Forest.py)
     - Preprocessing
     - Dataframe Slicing And Transform to Array
     - Random Forest
@@ -234,9 +235,28 @@ MachineLearning/blob/main/2-Predictions/6-Random_Forest.py)
     - Scater Clustering
     - Dendogram
 
+### [5-Association_Rule_Mining](https://github.com/GALACICEK/MachineLearning/tree/main/5-Association_Rule_Mining)
+
+- [1-Apriori_Algorithm.py](https://github.com/GALACICEK/MachineLearning/blob/main/5-Association_Rule_Mining/1-Apriori_Algorithm.py)
+    - Loading data sets
+    - Using apriori lib
+    - Using my_functions
+
+- [2-Eclat_Algorithm.py](https://github.com/GALACICEK/MachineLearning/blob/main/5-Association_Rule_Mining/2-Eclat_Algorithm.py)
+    - Loading data sets
+    - Using my_functions
+
+### [6-Reinforced_Learning](https://github.com/GALACICEK/MachineLearning/tree/main/6-Reinforced_Learning)
 
 
+- [1-Upper_Confidence_Bound.py](https://github.com/GALACICEK/MachineLearning/blob/main/6-Reinforced_Learning/1-Upper_Confidence_Bound.py)
+    - Loading data sets
+    - Random Selection
+    - UCB
+ 
 
+- [2-Thompson_Sample.py](https://github.com/GALACICEK/MachineLearning/blob/main/5-Association_Rule_Mining/2-Thompson_Sample.py)
+    - Loading data sets
 
 
 
