@@ -258,6 +258,9 @@
 - [2-Thompson_Sample.py](https://github.com/GALACICEK/MachineLearning/blob/main/5-Association_Rule_Mining/2-Thompson_Sample.py)
     - Loading data sets
 
+### [7-NLP.py](https://github.com/GALACICEK/MachineLearning/tree/main/7-NLP)
+
+### [8-Deep_Learning.py](https://github.com/GALACICEK/MachineLearning/tree/main/8-Deep_Learning)
 
 
 
