@@ -28,7 +28,8 @@ for i in range(len(veriler)):
     t.append([str(veriler.values[i,j]) for j in range(0,20)])
 
 
-# https://raw.githubusercontent.com/ymoch/apyori/master/apyori.py
+# wget "https://raw.githubusercontent.com/ymoch/apyori/master/apyori.py" -OutFile "5-Association_Rule_Mining/apyori.py"
+# Using apriori lib
 from apyori import apriori
 rules = apriori(t, min_support = 0.01, min_confidence =0.2, min_lift =3, min_length =2)
 
