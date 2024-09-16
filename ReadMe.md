@@ -6,16 +6,40 @@
 - [Education](https://www.btkakademi.gov.tr/portal/course/python-ile-makine-ogrenmesi-11800)
 - [DATA MINING: CONCEPTS AND TECHNIQUES Book](https://www.academia.edu/22412092/DATA_MINING_CONCEPTS_AND_TECHNIQUES_3RD_EDITION)
 
+- create your vitual environment:
+    - python -m venv myenv
+    - Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process (for permission)
+    - .\myenv\Scripts\activate
+    - python -m pip install --upgrade pip
+
+
 - we need some installations:
     - pip install pandas
-    - pip install pyarrow (Pyarrow will become a required dependency of pandas in the next major release of pandas (pandas 3.0))
     - pip install numpy
     - pip install matplotlib
+    - pip install scipy
     - pip install scikit-learn
     - pip install statsmodels
+    - pip install graphviz
+    - pip install pyarrow
     - pip install xlrd
-    - pip install scipy
     - pip install nltk
+    - pip install pydot
+    - pip install tensorflow
+    - pip install --upgrade https://files.pythonhosted.org/packages/8a/8e/0ad1eff787bf13f8dca87472414fbdfb73ea53f5a1a1c20489cfccfb7717/tensorflow-2.17.0-cp310-cp310-win_amd64.whl , 
+    this package "tensorflow-2.17.0-cp310-cp310-win_amd64.whl" 
+    install package files according your tensorflow version  and choose your win,mac or something else in [this](https://pypi.org/project/tensorflow/#files)
+
+    
+
+
+
+!!Checked requirements.txt files for package versions.
+
+- pip install -r requirements.txt
+- pip check
+Check compatibility by running the command
+
 
 ## Some Important Concepts for Machine Learning
 
@@ -258,9 +282,32 @@
 - [2-Thompson_Sample.py](https://github.com/GALACICEK/MachineLearning/blob/main/5-Association_Rule_Mining/2-Thompson_Sample.py)
     - Loading data sets
 
-### [7-NLP.py](https://github.com/GALACICEK/MachineLearning/tree/main/7-NLP)
+### [7-NLP](https://github.com/GALACICEK/MachineLearning/tree/main/7-NLP)
+
+- [7.1-NLP.py](https://github.com/GALACICEK/MachineLearning/tree/main/7-NLP/7.1NLP.py)
+    - Preprocessing
+        - Loading data sets
+        - filtering alphanumeric data and punctuation
+        - Convert Lowercase and Uppercase
+        - NOTE : Sparks Matrices
+    - Feature Extraction (Bag of Words BOW)
+    - Machine Learning
+        - Split test and train variables
+        - Gaussian Naive Bayes
+        - Confusion Matrix
 
 ### [8-Deep_Learning.py](https://github.com/GALACICEK/MachineLearning/tree/main/8-Deep_Learning)
 
-
+- [8.1ANN.py](https://github.com/GALACICEK/MachineLearning/tree/main/8-Deep_Learning/8.1ANN.py)
+    - Preprocessing
+        - Loading data sets
+        - Encoder Categoric -> Numeric
+        - Split test and train variables
+        - Datas Scaler
+    - ANN
+        - Input Layer: 11 extentions 
+        - First Hidden  Layer: 6 neuron
+        - Second Hidden  Layer: 6 neuron
+        - Output Layer: 1
+        - Confusion Matrix 
 
