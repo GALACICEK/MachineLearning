@@ -42,8 +42,9 @@ import pandas as pd
 comments = pd.read_csv('data/Restaurant_Reviews.csv', on_bad_lines='skip')
 comments.dropna(inplace=True)
 
+#NOTE : Sparks Matrices
 # https://en.wikipedia.org/wiki/Spark_(mathematics)
-# boşluktan oluşan matrixlere sparks matrix
+# Matrices consisting of empty spaces are called sparks matrices.
 
 
 # filtering alphanumeric data and punctuation
@@ -90,16 +91,20 @@ y = comments.iloc[:,1].values #depent value
 
 
 #Machine Learning ----------------------------------------------
+#Split test and train variables ----------------------------------------------
+
 from sklearn.model_selection import train_test_split
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20, random_state=0)
 
+# Gaussian Naive Bayes
 from sklearn.naive_bayes import GaussianNB
 gnb = GaussianNB()
 gnb.fit(X_train,y_train)
 
 y_pred = gnb.predict(X_test)
 
+#Confusion Matrix 
 from sklearn.metrics import confusion_matrix
 cm = confusion_matrix(y_test,y_pred)
 print(cm)
