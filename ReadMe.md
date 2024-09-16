@@ -296,7 +296,7 @@ Check compatibility by running the command
         - Gaussian Naive Bayes
         - Confusion Matrix
 
-### [8-Deep_Learning.py](https://github.com/GALACICEK/MachineLearning/tree/main/8-Deep_Learning)
+### [8-Deep_Learning](https://github.com/GALACICEK/MachineLearning/tree/main/8-Deep_Learning)
 
 - [8.1ANN.py](https://github.com/GALACICEK/MachineLearning/tree/main/8-Deep_Learning/8.1ANN.py)
     - Preprocessing
@@ -311,3 +311,17 @@ Check compatibility by running the command
         - Output Layer: 1
         - Confusion Matrix 
 
+### [9-DimetionReduction](https://github.com/GALACICEK/MachineLearning/tree/main/9-DimetionReduction)
+
+- [1-PCA.py](https://github.com/GALACICEK/MachineLearning/tree/main/9-DimetionReduction/1-PCA.py)
+
+    - Preprocessing
+        - Loading data sets
+        - Split test and train variables
+        - Datas Scaler
+    - PCA
+        - Logistic Regression
+        - Predicts
+        - Confusion Matrix 
+
+- [2-LDA.py](https://github.com/GALACICEK/MachineLearning/tree/main/9-DimetionReduction/2-LDA.py)
