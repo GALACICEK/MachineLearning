@@ -325,3 +325,15 @@ Check compatibility by running the command
         - Confusion Matrix 
 
 - [2-LDA.py](https://github.com/GALACICEK/MachineLearning/tree/main/9-DimetionReduction/2-LDA.py)
+    - Preprocessing
+        - Loading data sets
+        - Split test and train variables
+        - Datas Scaler
+    - LDA
+        - Logistic Regression
+        - Predicts
+        - Confusion Matrix 
+
+- [3-PCA&LDA.md](https://github.com/GALACICEK/MachineLearning/tree/main/9-DimetionReduction/3-PCA&LDA.md)
+    - PCA (Principal Component Analysis) and LDA (Linear Discriminant Analysis) 
+    - Comparing PCA (Principal Component Analysis) and LDA (Linear Discriminant Analysis) conclusions
