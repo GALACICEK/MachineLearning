@@ -17,6 +17,11 @@ Algorithm:
     - Create W projection matrix from eigen value choosen number k 
     - Translate the orijinal datasets X using W and obtain the k-diamention space Y
 
+    
+Component axes that maximize the variance
+-Unsupervised
+
+- https://sebastianraschka.com/Articles/2014_pca_step_by_step.html
 
 '''
 
@@ -74,12 +79,12 @@ cm = confusion_matrix(y_test,y_pred)
 print(cm)
 
 print("actual/with PCA")
-cmpca = confusion_matrix(y_test, y_predPCA)
-print(cmpca)
+cmp1 = confusion_matrix(y_test, y_predPCA)
+print(cmp1)
 
 print("without PCA/ with PCA")
-cmpca = confusion_matrix(y_pred, y_predPCA)
-print(cmpca)
+cm2 = confusion_matrix(y_pred, y_predPCA)
+print(cm2)
 
 
 
