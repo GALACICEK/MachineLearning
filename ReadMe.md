@@ -29,6 +29,7 @@
     - pip install --upgrade https://files.pythonhosted.org/packages/8a/8e/0ad1eff787bf13f8dca87472414fbdfb73ea53f5a1a1c20489cfccfb7717/tensorflow-2.17.0-cp310-cp310-win_amd64.whl , 
     this package "tensorflow-2.17.0-cp310-cp310-win_amd64.whl" 
     install package files according your tensorflow version  and choose your win,mac or something else in [this](https://pypi.org/project/tensorflow/#files)
+    - pip install xgboost
 
     
 
@@ -309,6 +310,14 @@
         - First Hidden  Layer: 6 neuron
         - Second Hidden  Layer: 6 neuron
         - Output Layer: 1
+        - Confusion Matrix 
+
+- [8.2XGBoost.py](https://github.com/GALACICEK/MachineLearning/tree/main/8-Deep_Learning/8.2XGBoost.py)
+    - Preprocessing
+        - Loading data sets
+        - Encoder Categoric -> Numeric
+        - Split test and train variables
+    - XGBoost
         - Confusion Matrix 
 
 ### [9-DimetionReduction](https://github.com/GALACICEK/MachineLearning/tree/main/9-DimetionReduction)
