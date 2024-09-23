@@ -372,4 +372,14 @@
     - Grid Search
 
 
+### [11-ModelSaving](https://github.com/GALACICEK/MachineLearning/tree/main/11-ModelSaving)
 
+
+- [1.pickle.py](https://github.com/GALACICEK/MachineLearning/tree/main/11-ModelSaving/1.pickle.py)
+    - Preprocessing
+        - Loading data sets
+        - Split test and train variables
+    - Linear Regression
+    - Pickle
+        - Save the fitted model
+        -  Loading the fitting model on file
