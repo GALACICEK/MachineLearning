@@ -38,7 +38,7 @@
 
 - pip install -r requirements.txt
 - pip check
-Check compatibility by running the command
+    - Check compatibility by running the command
 
 
 ## Some Important Concepts for Machine Learning
@@ -337,3 +337,30 @@ Check compatibility by running the command
 - [3-PCA&LDA.md](https://github.com/GALACICEK/MachineLearning/tree/main/9-DimetionReduction/3-PCA&LDA.md)
     - PCA (Principal Component Analysis) and LDA (Linear Discriminant Analysis) 
     - Comparing PCA (Principal Component Analysis) and LDA (Linear Discriminant Analysis) conclusions
+
+
+### [10-ModelSelection](https://github.com/GALACICEK/MachineLearning/tree/main/10-ModelSelection)
+
+
+- [1-k_foldCrossValidation.py](https://github.com/GALACICEK/MachineLearning/tree/main/10-ModelSelection/1-k_foldCrossValidation.py)
+    - Preprocessing
+        - Loading data sets
+        - Split test and train variables
+        - Datas Scaler
+    - SVM
+        - Predicts
+        - Confusion Matrix
+    - k-fold Cross Validation
+
+- [2-GridSearch.py](https://github.com/GALACICEK/MachineLearning/tree/main/10-ModelSelection/2-GridSearch.py)
+    - Preprocessing
+        - Loading data sets
+        - Split test and train variables
+        - Datas Scaler
+    - SVM
+        - Predicts
+        - Confusion Matrix
+    - Grid Search
+
+
+
